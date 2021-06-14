@@ -1,0 +1,39 @@
+.header {
+  display: fixed;
+  height: 80px;
+  background: #ffdc14;
+
+  .inner {
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &Centered {
+      justify-content: center;
+    }
+  }
+
+  .logo {
+    width: 221px;
+    height: 47px;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .logout {
+    color: black;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
